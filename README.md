@@ -1,7 +1,7 @@
-# django的 url 导入时 如果使用include  必须  加/  例如  path('login/',include('Exam.urls')),
+1. # django的 url 导入时 如果使用include  必须  加/  例如  path('login/',include('Exam.urls')),
  *** 
 
-# django 模板 导入的时候 例如 如果直接导入这种  render(xxxx,d)
+2.# django 模板 导入的时候 例如 如果直接导入这种  render(xxxx,d)
 ```
 d={
   1: {'room_id': 5501, 'type': 'common', 'room': '贾呗', 'status': '未入住'}, 
